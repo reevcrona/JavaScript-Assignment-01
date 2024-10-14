@@ -22,6 +22,6 @@ function calculate(firstNum,secondNum,operation){
 
 
 calcButton.addEventListener("click", () => {
-    const result = calculate(Number(firstInput.value),Number(secondInput.value),operationOption.value)
-    resultText.textContent = result
+    resultText.textContent = calculate(Number(firstInput.value),Number(secondInput.value),operationOption.value)
+    
 })
