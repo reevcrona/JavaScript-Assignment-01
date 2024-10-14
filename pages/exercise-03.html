@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
+    <div class="column-container">
+        <h1>Make a calculation</h1>
+        <input class="first-number" type="text">
+        <select name="operation" id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input class="second-number" type="text">
+        <button class="calc-button">Calculate it</button>
+        <h2 class="result-text"></h2>
+    </div>
     
+    <script src="/scripts/exercise-03.js"></script>
 </body>
 </html>

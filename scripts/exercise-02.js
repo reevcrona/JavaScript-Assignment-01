@@ -1,9 +1,10 @@
 let usersName = prompt("Hey! what is your name?");
 let usersAge = prompt("How old are you?");
 let usersFavColor = prompt("What is your favorite color?");
-let greetingHeader = document.querySelector(".greeting-text");
-let ageText = document.querySelector(".age-text");
-let favColorText = document.querySelector(".fav-color-text");
+
+const greetingHeader = document.querySelector(".greeting-text");
+const ageText = document.querySelector(".age-text");
+const favColorText = document.querySelector(".fav-color-text");
 
 
 
